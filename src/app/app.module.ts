@@ -13,6 +13,7 @@ import { RecipeItemComponent } from './recipe-item/recipe-item.component';
 import { RecipeDetailComponent } from './recipe-detail/recipe-detail.component';
 import { RecipiesComponent } from './recipies/recipies.component';
 import { RouterModule } from '@angular/router';
+import { DropdownDirective } from './dropdown.directive';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { RouterModule } from '@angular/router';
     RecipeItemComponent,
     RecipeDetailComponent,
     RecipiesComponent,
+    DropdownDirective,
   ],
   imports: [
     BrowserModule,
